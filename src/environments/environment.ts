@@ -3,7 +3,13 @@
 // The list of file replacements can be found in `angular.json`.
 
 export const environment = {
-  production: false
+  production: false,
+  //endpoint for displaying my profile info
+  gitApiUrl:"https://api.github.com/users/EinsteinElaim",
+  //endpoint for listing all repos in my profile
+  repoApiUrl:"https://api.github.com/users/EinsteinElaim/repos?access_token=",
+  username: "EinsteinElaim",
+  apiKey:"43b05c67002de5db3b9a9e8f5c2768f778572f9a"
 };
 
 /*
